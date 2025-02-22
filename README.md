@@ -1,54 +1,44 @@
-Project Overview
-This project is a Dashboard for WhatBytes Internship, designed to provide a comprehensive overview of user performance, including quick statistics, syllabus analysis, question analysis, and a comparison graph. The dashboard is built using React, Tailwind CSS, and Chart.js for data visualization.
+📊 WhatBytes Internship Dashboard
+A comprehensive dashboard designed to provide a detailed analysis of user performance, including quick statistics, syllabus analysis, question analysis, and a comparison graph. Built using React, Next.js, Tailwind CSS, and Chart.js, this dashboard delivers a modern, responsive, and interactive experience.
 
-Features
-Quick Statistics:
+🚀 Features
+📌 Quick Statistics
+✔ Displays the user's rank, percentile, and correct answers
+✔ Icons and vertical separators for a clean, modern design
 
-Displays the user's rank, percentile, and correct answers.
+📈 Comparison Graph
+✔ Visualizes the user's percentile compared to other students
+✔ Interactive and responsive graph built with Chart.js
+✔ Highlights user’s percentile dynamically
 
-Icons and vertical separators for a clean and modern design.
+📚 Syllabus Analysis
+✔ Tracks progress for different syllabus topics
+✔ Color-coded progress bars based on completion percentage
 
-Comparison Graph:
+📝 Question Analysis
+✔ Displays the user’s score along with a 3D progress ring
+✔ Provides a remark based on performance
 
-Visualizes the user's percentile compared to other students.
+🛠️ Update Modal
+✔ Allows users to update their rank, percentile, and score
+✔ Includes input validation for accurate data updates
 
-Interactive and responsive graph built with Chart.js.
+📱 Responsive Design
+✔ Fully responsive layout for desktop and mobile devices
+✔ Smooth animations and transitions for a better user experience
 
-Syllabus Analysis:
+🛠️ Tech Stack
+🌐 Frontend:
+⚛️ React (Component-based UI)
+🎨 Tailwind CSS (Utility-first styling)
+📊 Chart.js (Data visualization)
+⚡ Next.js (Routing & Server-Side Rendering)
+🎨 Icons & Images:
+🖼️ SVG icons
+🏞️ Custom images for better UI
+📥 Installation & Setup
+🔧 Prerequisites
+Ensure you have the following installed:
 
-Shows progress for different syllabus topics using progress bars.
-
-Color-coded progress bars based on completion percentage.
-
-Question Analysis:
-
-Displays the user's score and a 3D progress ring.
-
-Provides a remark based on the user's performance.
-
-Update Modal:
-
-Allows users to update their rank, percentile, and score.
-
-Includes validation for input fields.
-
-Responsive Design:
-
-Fully responsive layout for desktop and mobile devices.
-
-Smooth animations and transitions for a better user experience.
-
-Technologies Used
-Frontend:
-
-React
-
-Tailwind CSS
-
-Chart.js (for graphs)
-
-Next.js (for routing and server-side rendering)
-
-Icons and Images:
-
-SVG icons and custom images for visual elements.
+Node.js (v16 or later)
+npm or yarn
