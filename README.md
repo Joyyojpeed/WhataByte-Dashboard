@@ -1,5 +1,5 @@
 📊 WhatBytes Internship Dashboard
-A comprehensive dashboard designed to provide a detailed analysis of user performance, including quick statistics, syllabus analysis, question analysis, and a comparison graph. Built using React, Next.js, Tailwind CSS, and Chart.js, this dashboard delivers a modern, responsive, and interactive experience.
+A comprehensive dashboard designed to provide a detailed analysis of user performance, including quick statistics, syllabus analysis, question analysis, and a comparison graph. Built using Next.js, Tailwind CSS, and Chart.js, this dashboard delivers a modern, responsive, and interactive experience.
 
 🚀 Features
 📌 Quick Statistics
@@ -25,14 +25,15 @@ A comprehensive dashboard designed to provide a detailed analysis of user perfor
 
 📱 Responsive Design
 ✔ Fully responsive layout for desktop and mobile devices
+✔ Skill-wise & Question Analysis sections move to the bottom on smaller screens
 ✔ Smooth animations and transitions for a better user experience
 
 🛠️ Tech Stack
 🌐 Frontend:
-⚛️ React (Component-based UI)
+⚛️ Next.js (for routing & server-side rendering)
 🎨 Tailwind CSS (Utility-first styling)
 📊 Chart.js (Data visualization)
-⚡ Next.js (Routing & Server-Side Rendering)
+📂 React Context API (for state management)
 🎨 Icons & Images:
 🖼️ SVG icons
 🏞️ Custom images for better UI
