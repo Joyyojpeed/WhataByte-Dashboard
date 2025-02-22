@@ -1,36 +1,54 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+Project Overview
+This project is a Dashboard for WhatBytes Internship, designed to provide a comprehensive overview of user performance, including quick statistics, syllabus analysis, question analysis, and a comparison graph. The dashboard is built using React, Tailwind CSS, and Chart.js for data visualization.
 
-## Getting Started
+Features
+Quick Statistics:
 
-First, run the development server:
+Displays the user's rank, percentile, and correct answers.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Icons and vertical separators for a clean and modern design.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Comparison Graph:
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+Visualizes the user's percentile compared to other students.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Interactive and responsive graph built with Chart.js.
 
-## Learn More
+Syllabus Analysis:
 
-To learn more about Next.js, take a look at the following resources:
+Shows progress for different syllabus topics using progress bars.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Color-coded progress bars based on completion percentage.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Question Analysis:
 
-## Deploy on Vercel
+Displays the user's score and a 3D progress ring.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Provides a remark based on the user's performance.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Update Modal:
+
+Allows users to update their rank, percentile, and score.
+
+Includes validation for input fields.
+
+Responsive Design:
+
+Fully responsive layout for desktop and mobile devices.
+
+Smooth animations and transitions for a better user experience.
+
+Technologies Used
+Frontend:
+
+React
+
+Tailwind CSS
+
+Chart.js (for graphs)
+
+Next.js (for routing and server-side rendering)
+
+Icons and Images:
+
+SVG icons and custom images for visual elements.
